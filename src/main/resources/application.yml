@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
-    username: ${PGUSER}
-    password: ${PGPASSWORD}
+    url: jdbc:postgresql://dpg-d4bkfgpr0fns73fgurp0-a:5432/fecredit_db
+    username: fecredit_db_user
+    password: kpM4rmW2SVpWd5LDKwSZFytxZco0JBfG
 
   jpa:
     hibernate:
