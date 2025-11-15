@@ -23,5 +23,8 @@ public class LoanApplication {
     private Double rate;
     private Long monthlyPayment;
     private Boolean insurance;
+
+    @CreationTimestamp
+    @Column(name="created_at", updatable = false)
     private String createdAt;
 }
